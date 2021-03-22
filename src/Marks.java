@@ -5,23 +5,34 @@ public class Marks {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int[] stdMarks = new int[50];
+		int[] stdMarks = new int[5];
 		int sorter = 1 ;
 		//int[] sortedArray = new int[5];
 		Scanner number = new Scanner(System.in);
 		System.out.println("----- Enter Student Marks ---- " ) ;
-		for( int i = 0 ; i < 50 ; i ++ ) {
-			
+		
+		for( int i = 0 ; i < 5 ; i ++ ) {
+			//check for number input
+			while(! number.hasNextInt()) {
+				
+				System.out.println("Student Marks Should Be in Number !! ");
+				//return the skipped line
+				number.nextLine();				
+			}
 			int num = number.nextInt();
 			
-			stdMarks[i] = num ; 
+			stdMarks[i] = num ;
+			
+			
+			
+			
 		}
 		number.close();
 		
 		// loop through the array by checking two numbers
-		for( int j = 0 ; j < 50 ; j++) {
+		for( int j = 0 ; j < 5 ; j++) {
 			
-			for( int n = j+1 ; n<50 ; n++) {
+			for( int n = j+1 ; n<5 ; n++) {
 				// if stdMarks[0] < stdMarks[1]
 				if( stdMarks[j] < stdMarks[n] ) {
 					// set the sorter value with lower value
