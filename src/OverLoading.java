@@ -15,7 +15,7 @@ public class OverLoading {
 		
 		System.out.println( "I am loading a parameter " + name ) ;
 	}
-	 // this method will be overwritten in child class OverRiding
+	 // this method will be overwritten in child class OverRiding.java
 	void overRide() {
 		
 		System.out.println(" I am parent method overRide") ;
