@@ -1,3 +1,5 @@
+//Q11 - Write a program to store marks of 50 students in a class and later arrange them in descending order.
+
 import java.util.Scanner ;
 import java.util.Arrays;
 public class Marks {

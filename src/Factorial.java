@@ -1,9 +1,9 @@
-
+//Q10 - Write a program to print facctorial of first 25 numbers
 public class Factorial {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		findIt(10) ;
+		findIt(25) ;
 	}
 
 	static void findIt( int n ) {

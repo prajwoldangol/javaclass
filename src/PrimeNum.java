@@ -1,4 +1,4 @@
-
+// Q9 - Write a program to print first 1000 prime numbers.
 public class PrimeNum {
 
 	public static void main(String[] args) {
